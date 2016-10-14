@@ -9,8 +9,8 @@ class Cow implements Animal
      }
      public Cow()
      {
-     	myType = "black";
-     	mySound = "maaaaa";
+     	myType = "unknown";
+     	mySound = "unknown";
      }
      public String getSound()
      {
