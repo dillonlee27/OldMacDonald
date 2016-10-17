@@ -2,10 +2,13 @@ class Chick implements Animal
 {     
     private String chickSound;
     private String chickType;
-    public Chick(String typeTwo, String soundTwo)
+    public Chick(String typeTwo, String soundTwo, String soundTwoV2)
     {
-    	chickSound = soundTwo;
     	chickType = typeTwo;
+    	if (Math.random() < 0.5)
+    		chickSound = soundTwo;
+    	else
+    		chickSound = soundTwoV2;
     }
 	public Chick()
 	{
